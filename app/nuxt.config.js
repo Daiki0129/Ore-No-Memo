@@ -22,6 +22,10 @@ export default {
       }
     ]
   },
+  server: {
+    port: 3000, // デフォルト: 3000 (https://ja.nuxtjs.org/faq/host-port/)
+    host: '0.0.0.0', // デフォルト: localhost
+  },
   /*
   ** Customize the progress-bar color
   */
@@ -43,7 +47,19 @@ export default {
     '@nuxtjs/vuetify',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+    '@nuxtjs/pwa'
   ],
+  manifest: {
+    name: '俺のメモ',
+    lang: 'ja',
+    short_name: '俺のメモ',
+    title: '俺のメモです',
+    'og:title': '俺のメモです',
+    description: '俺のメモです',
+    'og:description': '俺のメモです',
+    theme_color: '#ffffff',
+    background_color: '#ffffff'
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

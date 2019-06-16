@@ -1,0 +1,11 @@
+{
+  "firebase": {
+    "apiKey": "AIzaSyAZ83oLmrNUrA1htqHWdA5pnHQKsGpz2_o",
+    "authDomain": "ore-no-memo.firebaseapp.com",
+    "databaseURL": "https://ore-no-memo.firebaseio.com",
+    "projectId": "ore-no-memo",
+    "storageBucket": "ore-no-memo.appspot.com",
+    "messagingSenderId": "837625717736",
+    "appId": "1:837625717736:web:7ba0877bbc7cd904"
+  }
+}
